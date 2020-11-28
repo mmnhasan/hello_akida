@@ -12,6 +12,9 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 Syntax highlighted code block
 
 # Header 1
+# This is an <h1> tag
+## This is an <h2> tag
+###### This is an <h6> tag
 ## Header 2
 ### Header 3
 
@@ -21,10 +24,17 @@ Syntax highlighted code block
 1. Numbered
 2. List
 
-**Bold** and _Italic_ and `Code` text
+**Bold*This text will be italic*
+_This will also be italic_
+
+**This text will be bold**
+__This will also be bold__
+
+_You **can** combine them_** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
-```
+```![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
