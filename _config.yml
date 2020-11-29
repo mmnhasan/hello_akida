@@ -51,3 +51,5 @@ exclude_patterns:
   - lib/theme_template/
   - lib/jekyll/mime.types
   - lib/jekyll/commands/serve/livereload_assets/livereload.js
+
+theme: jekyll-theme-time-machine
