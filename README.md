@@ -29,6 +29,8 @@ dog's back.
 > This is a blockquote.
 > 
 > This is the second paragraph in the blockquote.
+
+
 ##Markdown:
 
 Some of these words *are emphasized*.
@@ -36,6 +38,8 @@ Some of these words _are emphasized also_.
 
 Use two asterisks for **strong emphasis**.
 Or, if you prefer, __use two underscores instead__.
+
+
 ##LIST
 *   Candy.
 *   Gum.
@@ -45,10 +49,14 @@ Or, if you prefer, __use two underscores instead__.
 +   Booze.
 -   Candy.
 -   Gum.
+
+
 ##Ordered (numbered)
 1.  Red
 2.  Green
 3.  Blue
+
+
 ##multi-paragraph
 
 *   A list item.
@@ -56,6 +64,8 @@ Or, if you prefer, __use two underscores instead__.
     With multiple paragraphs.
 
 *   Another item in the list.
+
+
 ##LINKS
 This is an [example link](http://example.com/).
 > include a title 
@@ -65,17 +75,28 @@ This is an [example link](http://example.com/).
 
 
 -   Booze.
+
+
+
 ##include a title
 This is an [example link](http://example.com/ "With a Title").
+
+
+
 ##Reference-style links 
 [1]: http://google.com/        "Google"
 [2]: http://search.yahoo.com/  "Yahoo Search"
 [3]: http://search.msn.com/    "MSN Search"
+
+
+
 ##The title attribute is optional. Link names may contain letters, numbers and spaces, but are not case sensitive:
 I start my morning with a cup of coffee and
 [The New York Times][NY Times].
 
 [ny times]: http://www.nytimes.com/
+
+
 
 ##IMAGES
 
@@ -92,11 +113,16 @@ Reference-style:
 Both of the above examples produce the same output:
 
 <img src="/path/to/img.jpg" alt="alt text" title="Title" />
+
+
+
 ##CODE
 I strongly recommend against using any `<blink>` tags.
 
 I wish SmartyPants used named entities like `&mdash;`
 instead of decimal-encoded entites like `&#8212;`.
+
+
 ##Markdown:
 
     <blockquote>
